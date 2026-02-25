@@ -17,7 +17,7 @@ bot = telebot.TeleBot(BOT_TOKEN, threaded=True)
 app = Flask(__name__)
 
 # لیست تمام فرمت‌ها برای ری‌اکشن زدن روی همه چیز
-ALL_TYPES = ['photo', 'video', 'sticker', 'audio', 'animation', 'text', 'voice', 'video_note']
+ALL_TYPES = ['photo', 'video', 'sticker', 'story', 'audio', 'animation', 'text', 'voice', 'video_note']
 
 @app.route('/')
 def home(): return "Bot 3 is Running Fast!", 200
